@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-char *par_ou_impar(numero) {
+char *par_ou_impar(int numero) {
   if (numero % 2 == 0) {
     return "par";
   }
