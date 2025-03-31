@@ -18,7 +18,7 @@ int main() {
 
   numero_c = numero_a + numero_b;
 
-  printf("\nA soma dos dois numero eh: %i", numero_c);
+  printf("\nA soma dos dois numeros eh: %i", numero_c);
   printf("\nO numero eh: %s", par_ou_impar(numero_c));
 
   return 0;
