@@ -5,8 +5,8 @@ int main() {
 
   /*
    * Considere:
-   * 1 pé = 12 polegadas
-   * 1 jarda = 3 pés
+   * 1 pÃ© = 12 polegadas
+   * 1 jarda = 3 pÃ©s
    * 1 milha = 1760 jardas
    */
 
