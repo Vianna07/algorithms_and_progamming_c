@@ -12,13 +12,13 @@ int main() {
   int numero_a, numero_b, numero_c;
 
   printf("\n1 - Digite um numero para somar: ");
-  scanf("%i", &numero_a);
+  scanf("%d", &numero_a);
   printf("2 - Digite um numero para somar: ");
-  scanf("%i", &numero_b);
+  scanf("%d", &numero_b);
 
   numero_c = numero_a + numero_b;
 
-  printf("\nA soma dos dois numeros eh: %i", numero_c);
+  printf("\nA soma dos dois numeros eh: %d", numero_c);
   printf("\nO numero eh: %s", par_ou_impar(numero_c));
 
   return 0;
