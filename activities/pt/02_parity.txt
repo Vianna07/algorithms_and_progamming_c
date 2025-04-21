@@ -1,0 +1,3 @@
+Faça um algoritmo que receba dois números inteiros e some esses dois números a
+um terceiro número, depois exiba o terceiro número e mostre também se ele é um
+número par ou ímpar

@@ -1,0 +1,7 @@
+Faça um algoritmo que receba um valor em pés e exiba o valor em polegadas,
+jardas e milhas
+
+Considere:
+1 pé = 12 polegadas
+1 jarda = 3 pés
+1 milha = 1760 jardas

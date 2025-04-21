@@ -1,0 +1,7 @@
+Create an algorithm that receives a value in feet and displays the value in
+inches, yards, and miles
+
+Consider:
+1 foot = 12 inches
+1 yard = 3 feet
+1 mile = 1760 yards

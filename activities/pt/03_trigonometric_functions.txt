@@ -1,0 +1,9 @@
+Faça um algoritmo que receba o valor de um ângulo e use um switch-case para
+exibir informações com base nas seguintes opções:
+
+1. Seno do ângulo dado em radianos
+2. Seno do ângulo dado em graus
+3. Tangente do ângulo dado em radianos
+4. Tangente do ângulo dado em graus
+
+Para calcular o seno e a tangente use funções presentes em bibliotecas matemáticas

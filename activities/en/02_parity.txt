@@ -1,0 +1,3 @@
+Create an algorithm that receives two integers, adds these two numbers to a
+third number, then displays the third number and also shows whether it is an
+even or odd number.

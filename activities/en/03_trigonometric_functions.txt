@@ -1,0 +1,9 @@
+Create an algorithm that receives the value of an angle and uses a switch-case
+to display information based on the following options:
+
+1. Sine of the given angle in radians
+2. Sine of the given angle in degrees
+3. Tangent of the given angle in radians
+4. Tangent of the given angle in degrees
+
+To calculate the sine and tangent, use functions available in mathematical libraries
