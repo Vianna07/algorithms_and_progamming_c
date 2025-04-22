@@ -8,7 +8,7 @@ char *par_ou_impar(int numero) {
   return "impar";
 }
 
-int main() {
+int main(void) {
   int numero_a, numero_b, numero_c;
 
   printf("\n1 - Digite um numero para somar: ");
