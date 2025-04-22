@@ -3,59 +3,69 @@
 #include <math.h>
 #include <stdbool.h>
 #include <stdio.h>
+#include <stdlib.h>
 
-void exibir_resultado(int opcao, double valor) {
-  double graus = valor * M_PI / 180;
-  double radianos = valor;
+void exibir_opcoes(void) {
+  printf("\nEscolha uma opcao:\n");
+  printf("1. Seno do angulo dado em radianos\n");
+  printf("2. Seno do angulo dado em graus\n");
+  printf("3. Tangente do angulo dado em radianos\n");
+  printf("4. Tangente do angulo dado em graus\n");
+  printf("5. Sair\n");
+}
 
-  printf("\nResultado: ");
-  switch (opcao) {
-  case 1:
-    printf("Seno de %.2f radianos: %.2f", valor, sin(radianos));
-    break;
-  case 2:
-    printf("Seno de %.2f graus: %.2f", valor, sin(graus));
-    break;
-  case 3:
-    printf("Tangente de %.2f radianos: %.2f", valor, tan(radianos));
-    break;
-  case 4:
-    printf("Tangente de %.2f graus: %.2f", valor, tan(graus));
-    break;
-  default:
-    printf("Opcao invalida");
+void sair(short opcao) {
+  if (opcao == 5) {
+    printf("Saindo...\n");
+    exit(0);
   }
 }
 
-int main() {
-  double valor;
-  int opcao;
+bool opcao_valida(short opcao) { return (opcao >= 1 && opcao <= 4); }
+
+double graus_para_radianos(double graus) { return graus * M_PI / 180; }
+
+void exibir_resultado(short opcao, double angulo) {
+  double radianos = graus_para_radianos(angulo);
+
+  switch (opcao) {
+  case 1:
+    printf("Seno de %.4f radianos =  %.2f", radianos, sin(radianos));
+    break;
+  case 2:
+    printf("Seno de %.2f graus =  %.2f", angulo, sin(radianos));
+    break;
+  case 3:
+    printf("Tangente de %.4f radianos =  %.2f", radianos, tan(radianos));
+    break;
+  case 4:
+    printf("Tangente de %.2f graus =  %.2f", angulo, tan(radianos));
+    break;
+  }
+
+  printf("\n");
+}
+
+int main(void) {
+  double angulo;
+  short opcao;
 
   while (true) {
-    printf("\n\n(1) Obter seno a partir de um valor em radianos");
-    printf("\n(2) Obter seno a partir de um valor em graus");
-    printf("\n(3) Obter tangente a partir de um valor em radianos");
-    printf("\n(4) Obter tangente a partir de um valor em graus");
-    printf("\n(5) Sair\n");
+    printf("\nDigite o valor de um angulo: ");
+    scanf("%lf", &angulo);
 
-    printf("\nEscolha uma opcao: ");
-    scanf("%d", &opcao);
+    exibir_opcoes();
 
-    if (opcao == 5) {
-      printf("\nSaindo...");
-      break;
-    }
+    printf("\nDigite a opcao desejada: ");
+    scanf("%hd", &opcao);
 
-    if (opcao < 1 || opcao > 5) {
-      printf("\nOpcao invalida! Tente novamente\n");
+    sair(opcao);
+
+    if (!opcao_valida(opcao)) {
+      printf("Opcao invalida. Tente novamente.\n");
       continue;
     }
 
-    printf("Digite o valor: ");
-    scanf("%lf", &valor);
-
-    exibir_resultado(opcao, valor);
+    exibir_resultado(opcao, angulo);
   }
-
-  return 0;
 }
