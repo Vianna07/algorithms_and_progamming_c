@@ -1,0 +1,12 @@
+Faça um algoritmo para calcular e exibir o salário bruto e o salário líquido de um professor.
+
+O programa deve solicitar ao usuário as seguintes informações:
+1. Valor da hora-aula;
+2. Número de aulas ministradas no mês;
+3. Percentual de desconto do INSS.
+
+Com base nesses dados, o programa deve realizar os seguintes cálculos:
+- Salário bruto: obtido pelo produto do número de aulas pelo valor da hora-aula;
+- Salário líquido: calculado subtraindo o desconto do INSS do salário bruto.
+
+Por fim, exiba na tela os valores do salário bruto e do salário líquido.

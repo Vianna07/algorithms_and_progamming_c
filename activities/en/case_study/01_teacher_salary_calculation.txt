@@ -1,0 +1,12 @@
+Create an algorithm to calculate and display the gross salary and net salary of a teacher.
+
+The program should request the following information from the user:
+1. Hourly rate;
+2. Number of classes taught in the month;
+3. INSS discount percentage.
+
+Based on this data, the program should perform the following calculations:
+- Gross salary: obtained by multiplying the number of classes by the hourly rate;
+- Net salary: calculated by subtracting the INSS discount from the gross salary.
+
+Finally, display the values of the gross salary and net salary on the screen.
