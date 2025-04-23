@@ -68,4 +68,6 @@ int main(void) {
 
     display_result(option, angle);
   }
+
+  return 0;
 }
