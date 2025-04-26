@@ -10,6 +10,8 @@ fn even_or_odd(number: i64) []const u8 {
 }
 
 fn input_fail() error{InvalidArgument} {
+    std.debug.print("\nNo input provided.\n", .{});
+
     return error.InvalidArgument;
 }
 
