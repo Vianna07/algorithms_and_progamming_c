@@ -10,8 +10,8 @@ Consider:
 
 BMI formula = weight / (height * height)
 Classification:
-1. Below 18.5: Underweight
-2. Between 18.5 and 24.9: Normal weight
+1. Below 19.0: Underweight
+2. Between 19.0 and 24.9: Normal weight
 3. Between 25.0 and 29.9: Overweight
 4. 30.0 or more: Obesity
 

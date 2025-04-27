@@ -10,8 +10,8 @@ Considere:
 
 Fórmula do IMC = peso / (altura * altura)
 Classificação:
-1. Abaixo de 18.5: Abaixo do peso
-2. Entre 18.5 e 24.9: Peso normal
+1. Abaixo de 19.0: Abaixo do peso
+2. Entre 19.0 e 24.9: Peso normal
 3. Entre 25.0 e 29.9: Sobrepeso
 4. 30.0 ou mais: Obesidade
 
