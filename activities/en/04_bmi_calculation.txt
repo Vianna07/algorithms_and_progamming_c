@@ -1,0 +1,18 @@
+Develop and implement an application in C++ that uses the switch-case
+for options given by a range of values.
+
+Activity:
+
+Create an algorithm that receives a person's weight and height and,
+based on this, calculates their BMI and displays the results.
+
+Consider:
+
+BMI formula = weight / (height * height)
+Classification:
+1. Below 18.5: Underweight
+2. Between 18.5 and 24.9: Normal weight
+3. Between 25.0 and 29.9: Overweight
+4. 30.0 or more: Obesity
+
+Use the switch-case to determine the classification based on the range of values.

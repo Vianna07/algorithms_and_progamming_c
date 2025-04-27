@@ -1,0 +1,18 @@
+Elabore e implemente uma aplicação em Linguagem C++ que empregue o switch-case
+para opções dadas por intervalo de valores
+
+Atividade:
+
+Faça um algoritmo que receba o peso e a altura de uma pessoa e com
+base nisso calcule seu IMC e exiba os resultados
+
+Considere:
+
+Fórmula do IMC = peso / (altura * altura)
+Classificação:
+1. Abaixo de 18.5: Abaixo do peso
+2. Entre 18.5 e 24.9: Peso normal
+3. Entre 25.0 e 29.9: Sobrepeso
+4. 30.0 ou mais: Obesidade
+
+Utilize o switch-case para determinar a classificação com base no intervalo de valores.
